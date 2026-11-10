@@ -1,0 +1,89 @@
+[150 WPM. Text in brackets is an action, not spoken.]
+
+[0:00 | SCREEN: SLIDES | SLIDE 1]
+
+Portcullis is a security and compliance firewall for institutional cross-chain settlement.
+
+It sits between a signed message and the receiver. Before value moves, the guard runs six checks. Only an accepted message reaches settlement.
+
+[SLIDE 2]
+
+The receiver is the last line of defense.
+
+Ronin, Wormhole, and Nomad failed in different ways, but each incident ended with a receiver accepting a bad cross-chain message and moving value.
+
+Portcullis adds an independent decision between message arrival and token transfer.
+
+[SLIDE 3]
+
+Before the adapter pays, the guard verifies six things.
+
+The source and signature must be valid. Token, recipient, and value must be allowed. The message digest must be fresh, the nonce exact, and the rate limit intact. Finally, the guard checks local volume or a private policy verdict.
+
+An ordinary rejection changes no receiver state. An authenticated anomaly can latch the breaker.
+
+[SLIDE 4]
+
+The settlement crosses five layers.
+
+Arc hosts the receiver. ENS resolves the signing authority. Chainlink CRE evaluates private policy. PortcullisGuard enforces the result. The Graph exposes inspection history and configuration to the dashboard.
+
+The integration boundaries stay separate from the core checks.
+
+[SLIDE 5]
+
+These are the two deployed surfaces.
+
+On the left is the Sepolia guard and its configuration transactions. On the right is the public guardian dashboard. The Arc contracts and CRE policy run separately on Arc testnet.
+
+[STAY ON SLIDES. DO NOT OPEN THE DASHBOARD YET.]
+
+[SLIDE 6]
+
+Each sponsor integration owns one control point.
+
+Circle and Arc provide settlement origination. ENS provides the signing authority. Chainlink CRE returns the private policy verdict. The Graph records inspection events and the live guard configuration.
+
+[SLIDE 7]
+
+Now I will show the complete state transition locally, then the separate live Sepolia operator view.
+
+The demo covers a genuine payment, a forged message, an authenticated anomaly, and guardian recovery.
+
+[ABOUT 1:55 | SWITCH FROM SLIDES TO TERMINAL]
+
+[ACTION: Run `forge script script/Demo.s.sol`.]
+
+The script deploys a local guard, receiver, registry, and test token.
+
+First, the enrolled authority signs a genuine settlement and the adapter pays.
+
+Second, an attacker signs a forged message. The attacker receives nothing, and the breaker stays up.
+
+Third, the real authority signs a value far above the local baseline. The guard recognizes an authenticated volume spike and latches the breaker.
+
+Finally, the guardian clears it, and the next genuine settlement succeeds.
+
+[ABOUT 2:40 | SWITCH FROM TERMINAL TO BROWSER]
+
+[ACTION: Open `https://portcullis.b0gdaniy.xyz`.]
+
+Now I am switching from the local state transition to the live Sepolia operator view.
+
+The dashboard reads the deployed guard and subgraph. It exposes the breaker status, current configuration, and indexed events for the guardian.
+
+[DO NOT CLAIM THAT THE LOCAL RUN UPDATED THIS PAGE.]
+
+[ABOUT 3:10 | RETURN TO SLIDES | SLIDE 8]
+
+The limitations are explicit.
+
+This is a public testnet deployment with no production funds. The guardian is one account without a timelock. The transport is mocked. New sources train a local volume baseline during warmup.
+
+[SLIDE 9]
+
+Portcullis authenticates the message before the receiver moves value.
+
+The contracts, dashboard, documentation, deployments, and subgraph are public. Open the code, verify the deployment, and challenge the threat model.
+
+Thank you.

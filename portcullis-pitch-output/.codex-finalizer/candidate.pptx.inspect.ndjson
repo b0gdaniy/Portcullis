@@ -1,0 +1,283 @@
+{"kind":"deck","id":"pr/mw6mkt","name":"Deck"}
+{"kind":"layout","layoutId":"0f71f15b-521b-4b89-a8b8-1e573b379b21","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"c7aaf63b-203f-4811-9f56-1298b4031628","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ls00px","slide":1,"title":"PORTCULLIS","textShapes":9}
+{"kind":"shape","id":"sh/hsvyh07i","slide":1,"bbox":[68,68,1144,2]}
+{"kind":"textbox","id":"sh/upkf65or","slide":1,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[72,116,700,76]}
+{"kind":"textbox","id":"sh/vqtgfapc","slide":1,"text":"Security and compliance firewall\nfor institutional cross-chain settlement","textPreview":"Security and compliance firewall | for institutional cross-chain settlement","textChars":73,"textLines":2,"bbox":[74,222,700,100]}
+{"kind":"textbox","id":"sh/4fmhcf6t","slide":1,"text":"Authenticate the message before value moves.","textPreview":"Authenticate the message before value moves.","textChars":44,"textLines":1,"bbox":[74,347,650,38]}
+{"kind":"textbox","id":"sh/5gvylk7e","slide":1,"text":"Live contracts\nPublic dashboard\nDocumented self-audit","textPreview":"Live contracts | Public dashboard | Documented self-audit","textChars":53,"textLines":3,"bbox":[824,150,330,126]}
+{"kind":"textbox","id":"sh/it4za5o3","slide":1,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[830,316,140,135]}
+{"kind":"textbox","id":"sh/3udgjap8","slide":1,"text":"pre-transfer checks","textPreview":"pre-transfer checks","textChars":19,"textLines":1,"bbox":[964,350,240,42]}
+{"kind":"textbox","id":"sh/sjmhgz65","slide":1,"text":"Reject one message\nor latch on an authenticated anomaly","textPreview":"Reject one message | or latch on an authenticated anomaly","textChars":55,"textLines":2,"bbox":[834,460,350,76]}
+{"kind":"textbox","id":"sh/dkfypk7q","slide":1,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[74,631,220,24]}
+{"kind":"textbox","id":"sh/xkzu9c7a","slide":1,"text":"Built solo","textPreview":"Built solo","textChars":10,"textLines":1,"bbox":[300,631,140,24]}
+{"kind":"notes","id":"nt/ls00px","slide":1,"text":"Portcullis is a security and compliance firewall for inbound institutional cross-chain settlement. The premise is simple: authenticate the message before any token transfer. The project has live testnet contracts, a public guardian dashboard, and a documented self-audit story.\n\nSource: project context supplied with the deck and docs/README.md."}
+{"kind":"slide","id":"sl/i5w1os","slide":2,"title":"02","textShapes":23}
+{"kind":"textbox","id":"sh/yh0ze1sn","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/lkby9gbe","slide":2,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/0jihgbat","slide":2,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/be9g3mtw","slide":2,"text":"The receiver is the last line of defense","textPreview":"The receiver is the last line of defense","textChars":40,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/qd0za1sr","slide":2,"text":"Bridge failures become dangerous when an inbound message can trigger value movement.","textPreview":"Bridge failures become dangerous when an inbound message can trigger value movement.","textChars":84,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/dgry5wb2","slide":2,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"textbox","id":"sh/cfihcrah","slide":2,"text":"A message arrives.\nThe receiver executes.\nValue moves.","textPreview":"A message arrives. | The receiver executes. | Value moves.","textChars":54,"textLines":3,"bbox":[62,220,580,185]}
+{"kind":"textbox","id":"sh/vatgfqtg","slide":2,"text":"No independent proof separates arrival from transfer.","textPreview":"No independent proof separates arrival from transfer.","textChars":53,"textLines":1,"bbox":[62,420,575,56]}
+{"kind":"textbox","id":"sh/a9kzmlsv","slide":2,"text":"FAILURE PATTERN","textPreview":"FAILURE PATTERN","textChars":15,"textLines":1,"bbox":[760,218,300,24]}
+{"kind":"textbox","id":"sh/cza587m5","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[760,272,40,28]}
+{"kind":"textbox","id":"sh/x0j61c3q","slide":2,"text":"Cross-chain message","textPreview":"Cross-chain message","textChars":19,"textLines":1,"bbox":[816,270,300,30]}
+{"kind":"textbox","id":"sh/ax8n6x4f","slide":2,"text":"looks valid enough","textPreview":"looks valid enough","textChars":18,"textLines":1,"bbox":[816,303,330,28]}
+{"kind":"shape","id":"sh/by1oz2l0","slide":2,"bbox":[816,344,330,1]}
+{"kind":"textbox","id":"sh/ovq547m9","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[760,377,40,28]}
+{"kind":"textbox","id":"sh/pwz6xs3u","slide":2,"text":"Receiver call","textPreview":"Receiver call","textChars":13,"textLines":1,"bbox":[816,375,300,30]}
+{"kind":"textbox","id":"sh/298n2x43","slide":2,"text":"passes control inward","textPreview":"passes control inward","textChars":21,"textLines":1,"bbox":[816,408,330,28]}
+{"kind":"shape","id":"sh/nuhov2lo","slide":2,"bbox":[816,449,330,1]}
+{"kind":"textbox","id":"sh/07q50nmx","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[760,482,40,28]}
+{"kind":"textbox","id":"sh/18z69s3i","slide":2,"text":"Token transfer","textPreview":"Token transfer","textChars":14,"textLines":1,"bbox":[816,480,300,30]}
+{"kind":"textbox","id":"sh/hormxovm","slide":2,"text":"receiver state changes","textPreview":"receiver state changes","textChars":22,"textLines":1,"bbox":[816,513,330,28]}
+{"kind":"textbox","id":"sh/gnil4je1","slide":2,"text":"RONIN","textPreview":"RONIN","textChars":5,"textLines":1,"bbox":[62,535,190,25]}
+{"kind":"textbox","id":"sh/v294vedg","slide":2,"text":"signature control failed","textPreview":"signature control failed","textChars":24,"textLines":1,"bbox":[62,570,190,38]}
+{"kind":"textbox","id":"sh/u1g329wv","slide":2,"text":"WORMHOLE","textPreview":"WORMHOLE","textChars":8,"textLines":1,"bbox":[290,535,190,25]}
+{"kind":"textbox","id":"sh/t07mt4va","slide":2,"text":"verification failed","textPreview":"verification failed","textChars":19,"textLines":1,"bbox":[290,570,190,38]}
+{"kind":"textbox","id":"sh/8zyl0zep","slide":2,"text":"NOMAD","textPreview":"NOMAD","textChars":5,"textLines":1,"bbox":[518,535,190,25]}
+{"kind":"textbox","id":"sh/7ypkrudk","slide":2,"text":"message validation failed","textPreview":"message validation failed","textChars":25,"textLines":1,"bbox":[518,570,190,38]}
+{"kind":"notes","id":"nt/i5w1os","slide":2,"text":"The critical failure point is the receiver. Ronin, Wormhole, and Nomad differ in incident details, but each illustrates the danger of a cross-chain message reaching a contract that can execute it. Portcullis adds an independent pre-transfer decision at that boundary.\n\nSource: project threat model supplied with the deck and README.md."}
+{"kind":"slide","id":"sl/x97akf","slide":3,"title":"03","textShapes":27}
+{"kind":"textbox","id":"sh/076d0ve1","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/z6xcradg","slide":3,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/y5ovy5wv","slide":3,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/9czexkvi","slide":3,"text":"Six checks run before token transfer","textPreview":"Six checks run before token transfer","textChars":36,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/8bqd4fed","slide":3,"text":"The adapter pays only after PortcullisGuard.inspect accepts the message.","textPreview":"The adapter pays only after PortcullisGuard.inspect accepts the message.","textChars":72,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/naxcvads","slide":3,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"shape","id":"sh/m9ov25w7","slide":3,"bbox":[64,220,350,2]}
+{"kind":"textbox","id":"sh/pgvulgve","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[64,242,44,28]}
+{"kind":"textbox","id":"sh/ofmdsbet","slide":3,"text":"Binding","textPreview":"Binding","textChars":7,"textLines":1,"bbox":[122,237,280,34]}
+{"kind":"textbox","id":"sh/ux4r6lsv","slide":3,"text":"Enrolled source and valid ECDSA signature","textPreview":"Enrolled source and valid ECDSA signature","textChars":41,"textLines":1,"bbox":[122,284,286,58]}
+{"kind":"shape","id":"sh/vydsfqtg","slide":3,"bbox":[462,220,350,2]}
+{"kind":"textbox","id":"sh/wzm98va1","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[462,242,44,28]}
+{"kind":"textbox","id":"sh/h0vah0rm","slide":3,"text":"Bounds","textPreview":"Bounds","textChars":6,"textLines":1,"bbox":[520,237,280,34]}
+{"kind":"textbox","id":"sh/i14ra5s7","slide":3,"text":"Allowed token, recipient, and value","textPreview":"Allowed token, recipient, and value","textChars":35,"textLines":1,"bbox":[520,284,286,58]}
+{"kind":"shape","id":"sh/j2dsja9s","slide":3,"bbox":[860,220,350,2]}
+{"kind":"textbox","id":"sh/43m9cvax","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[860,242,44,28]}
+{"kind":"textbox","id":"sh/54fal0ri","slide":3,"text":"Replay","textPreview":"Replay","textChars":6,"textLines":1,"bbox":[918,237,280,34]}
+{"kind":"textbox","id":"sh/6pobe5s3","slide":3,"text":"Fresh chain-bound message digest","textPreview":"Fresh chain-bound message digest","textChars":32,"textLines":1,"bbox":[918,284,286,58]}
+{"kind":"shape","id":"sh/rqxsna9o","slide":3,"bbox":[64,395,350,2]}
+{"kind":"textbox","id":"sh/3ux8bapw","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[64,417,44,28]}
+{"kind":"textbox","id":"sh/2tor258b","slide":3,"text":"Nonce","textPreview":"Nonce","textChars":5,"textLines":1,"bbox":[122,412,280,34]}
+{"kind":"textbox","id":"sh/pwzqdk72","slide":3,"text":"Exact next nonce for the source","textPreview":"Exact next nonce for the source","textChars":31,"textLines":1,"bbox":[122,459,286,58]}
+{"kind":"shape","id":"sh/ovq94fqh","slide":3,"bbox":[462,395,350,2]}
+{"kind":"textbox","id":"sh/fqx87apk","slide":3,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[462,417,44,28]}
+{"kind":"textbox","id":"sh/e5ory58z","slide":3,"text":"Rate","textPreview":"Rate","textChars":4,"textLines":1,"bbox":[520,412,280,34]}
+{"kind":"textbox","id":"sh/1sfq907q","slide":3,"text":"Per-source token bucket","textPreview":"Per-source token bucket","textChars":23,"textLines":1,"bbox":[520,459,286,58]}
+{"kind":"shape","id":"sh/gr690fq5","slide":3,"bbox":[860,395,350,2]}
+{"kind":"textbox","id":"sh/r2d83qpo","slide":3,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[860,417,44,28]}
+{"kind":"textbox","id":"sh/614rul83","slide":3,"text":"Volume or policy","textPreview":"Volume or policy","textChars":16,"textLines":1,"bbox":[918,412,280,34]}
+{"kind":"textbox","id":"sh/w7254r61","slide":3,"text":"Local spike check or CRE verdict","textPreview":"Local spike check or CRE verdict","textChars":32,"textLines":1,"bbox":[918,459,286,58]}
+{"kind":"textbox","id":"sh/h8b6xwnm","slide":3,"text":"Reject","textPreview":"Reject","textChars":6,"textLines":1,"bbox":[65,586,75,26]}
+{"kind":"textbox","id":"sh/u5kn2hov","slide":3,"text":"Receiver state stays unchanged","textPreview":"Receiver state stays unchanged","textChars":30,"textLines":1,"bbox":[140,584,330,30]}
+{"kind":"textbox","id":"sh/v6tovm5g","slide":3,"text":"Latch","textPreview":"Latch","textChars":5,"textLines":1,"bbox":[656,586,70,26]}
+{"kind":"textbox","id":"sh/4b2p8b6x","slide":3,"text":"Authenticated rate, volume, or policy anomaly","textPreview":"Authenticated rate, volume, or policy anomaly","textChars":45,"textLines":1,"bbox":[726,584,470,30]}
+{"kind":"notes","id":"nt/x97akf","slide":3,"text":"The adapter calls the guard before transfer. The guard evaluates binding, bounds, replay, nonce, rate, and volume or policy. A plain invalid message is rejected without changing receiver state. Only an authenticated rate breach, volume spike, or explicit policy denial can latch the circuit breaker.\n\nSource: contracts/core/PortcullisChecks.sol and docs/security-notes.md."}
+{"kind":"slide","id":"sl/4j0894","slide":4,"title":"04","textShapes":22}
+{"kind":"textbox","id":"sh/7e90zydw","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/8fihs3uh","slide":4,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/9gri1ov2","slide":4,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/uh0jutcn","slide":4,"text":"Five layers, one settlement","textPreview":"Five layers, one settlement","textChars":27,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/vi903yds","slide":4,"text":"Integrations supply evidence while the guard keeps the core invariant local.","textPreview":"Integrations supply evidence while the guard keeps the core invariant local.","textChars":76,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/wj21w3ud","slide":4,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"shape","id":"sh/hkbi58vy","slide":4,"bbox":[64,212,6,56]}
+{"kind":"textbox","id":"sh/algzi9c3","slide":4,"text":"Arc testnet","textPreview":"Arc testnet","textChars":11,"textLines":1,"bbox":[88,220,220,34]}
+{"kind":"textbox","id":"sh/bmp0redo","slide":4,"text":"Origination","textPreview":"Origination","textChars":11,"textLines":1,"bbox":[330,221,170,30]}
+{"kind":"textbox","id":"sh/vu9knuxw","slide":4,"text":"ArcSettlementReceiver, chain ID 5042002","textPreview":"ArcSettlementReceiver, chain ID 5042002","textChars":39,"textLines":1,"bbox":[520,221,650,42]}
+{"kind":"shape","id":"sh/u90jupgb","slide":4,"bbox":[88,278,1082,1]}
+{"kind":"shape","id":"sh/hwr2p4f2","slide":4,"bbox":[64,290,6,56]}
+{"kind":"textbox","id":"sh/gvi1wzyh","slide":4,"text":"ENSv2","textPreview":"ENSv2","textChars":5,"textLines":1,"bbox":[88,298,220,34]}
+{"kind":"textbox","id":"sh/76p0zux0","slide":4,"text":"Identity","textPreview":"Identity","textChars":8,"textLines":1,"bbox":[330,299,170,30]}
+{"kind":"textbox","id":"sh/65gjqpgf","slide":4,"text":"Allowlisted ENS name resolves signing authority","textPreview":"Allowlisted ENS name resolves signing authority","textChars":47,"textLines":1,"bbox":[520,299,650,42]}
+{"kind":"shape","id":"sh/t8r2lkfq","slide":4,"bbox":[88,356,1082,1]}
+{"kind":"shape","id":"sh/87i1sfy5","slide":4,"bbox":[64,368,6,56]}
+{"kind":"textbox","id":"sh/j2p0vaxo","slide":4,"text":"Chainlink CRE","textPreview":"Chainlink CRE","textChars":13,"textLines":1,"bbox":[88,376,220,34]}
+{"kind":"textbox","id":"sh/y1gjm5g3","slide":4,"text":"Private policy","textPreview":"Private policy","textChars":14,"textLines":1,"bbox":[330,377,170,30]}
+{"kind":"textbox","id":"sh/mxwjy50v","slide":4,"text":"TEE workflow returns ALLOW, DENY, or MANUAL_REVIEW","textPreview":"TEE workflow returns ALLOW, DENY, or MANUAL_REVIEW","textChars":50,"textLines":1,"bbox":[520,377,650,42]}
+{"kind":"shape","id":"sh/ny5k7ahg","slide":4,"bbox":[88,434,1082,1]}
+{"kind":"shape","id":"sh/ozel0fi1","slide":4,"bbox":[64,446,6,56]}
+{"kind":"textbox","id":"sh/90729kzm","slide":4,"text":"PortcullisGuard","textPreview":"PortcullisGuard","textChars":15,"textLines":1,"bbox":[88,454,220,34]}
+{"kind":"textbox","id":"sh/a1g32507","slide":4,"text":"Core","textPreview":"Core","textChars":4,"textLines":1,"bbox":[330,455,170,30]}
+{"kind":"textbox","id":"sh/b2pkbahs","slide":4,"text":"Six inlined checks in Solidity 0.8.36","textPreview":"Six inlined checks in Solidity 0.8.36","textChars":37,"textLines":1,"bbox":[520,455,650,42]}
+{"kind":"shape","id":"sh/w3yl4fid","slide":4,"bbox":[88,512,1082,1]}
+{"kind":"shape","id":"sh/x472dkzi","slide":4,"bbox":[64,524,6,56]}
+{"kind":"textbox","id":"sh/y5g36p03","slide":4,"text":"The Graph","textPreview":"The Graph","textChars":9,"textLines":1,"bbox":[88,532,220,34]}
+{"kind":"textbox","id":"sh/j6pkfuho","slide":4,"text":"Observability","textPreview":"Observability","textChars":13,"textLines":1,"bbox":[330,533,170,30]}
+{"kind":"textbox","id":"sh/t0bm5ojq","slide":4,"text":"Inspection history and live guard configuration","textPreview":"Inspection history and live guard configuration","textChars":47,"textLines":1,"bbox":[520,533,650,42]}
+{"kind":"textbox","id":"sh/sz25wj2l","slide":4,"text":"Integration seams","textPreview":"Integration seams","textChars":17,"textLines":1,"bbox":[66,620,170,24]}
+{"kind":"textbox","id":"sh/7y943e10","slide":4,"text":"IIdentityRegistry and IPreSettlementPolicy","textPreview":"IIdentityRegistry and IPreSettlementPolicy","textChars":42,"textLines":1,"bbox":[238,617,560,30]}
+{"kind":"notes","id":"nt/4j0894","slide":4,"text":"Arc is the settlement origination layer. ENS resolves the signing authority. Chainlink CRE supplies a private policy verdict. The guard enforces the decision. The Graph exposes inspection history and configuration. IIdentityRegistry and IPreSettlementPolicy keep identity and policy replaceable without turning the core checks into a governance surface.\n\nSource: README.md and docs/deployments.md."}
+{"kind":"slide","id":"sl/i1501s","slide":5,"title":"05","textShapes":25}
+{"kind":"textbox","id":"sh/z2ds36xg","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/03mtcby1","slide":5,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/l4va5gfm","slide":5,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/m54belg7","slide":5,"text":"105 tests passed. The guard was still drainable","textPreview":"105 tests passed. The guard was still drainable","textChars":47,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/nqdc7qxs","slide":5,"text":"A self-audit by eight agents broke the first working version before submission.","textPreview":"A self-audit by eight agents broke the first working version before submission.","textChars":79,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/8rmtgvyd","slide":5,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"textbox","id":"sh/9svu90fy","slide":5,"text":"F1","textPreview":"F1","textChars":2,"textLines":1,"bbox":[64,220,70,40]}
+{"kind":"textbox","id":"sh/290b21g3","slide":5,"text":"Guard authenticated nothing","textPreview":"Guard authenticated nothing","textChars":27,"textLines":1,"bbox":[64,274,610,54]}
+{"kind":"textbox","id":"sh/3utsvmh8","slide":5,"text":"Read the public authority. Echo it as sender.\nUse the next nonce and a fresh message ID.\nAll six checks passed.","textPreview":"Read the public authority. Echo it as sender. | Use the next nonce and a fresh message ID. | All six checks passed.","textChars":111,"textLines":3,"bbox":[64,354,580,128]}
+{"kind":"shape","id":"sh/nyt8jy5o","slide":5,"bbox":[706,220,2,0]}
+{"kind":"textbox","id":"sh/2xk7qt43","slide":5,"text":"OTHER CONFIRMED FINDINGS","textPreview":"OTHER CONFIRMED FINDINGS","textChars":24,"textLines":1,"bbox":[748,218,360,25]}
+{"kind":"textbox","id":"sh/p0bql8nu","slide":5,"text":"F2","textPreview":"F2","textChars":2,"textLines":1,"bbox":[748,270,46,26]}
+{"kind":"textbox","id":"sh/oz2ps3m9","slide":5,"text":"90","textPreview":"90","textChars":2,"textLines":1,"bbox":[808,270,44,26]}
+{"kind":"textbox","id":"sh/fa9ofy5s","slide":5,"text":"Breaker DoS","textPreview":"Breaker DoS","textChars":11,"textLines":1,"bbox":[874,268,280,30]}
+{"kind":"shape","id":"sh/e907mto7","slide":5,"bbox":[748,310,406,1]}
+{"kind":"textbox","id":"sh/1wr6honi","slide":5,"text":"F3","textPreview":"F3","textChars":2,"textLines":1,"bbox":[748,336,46,26]}
+{"kind":"textbox","id":"sh/0vipoj6x","slide":5,"text":"85","textPreview":"85","textChars":2,"textLines":1,"bbox":[808,336,44,26]}
+{"kind":"textbox","id":"sh/r69obe5g","slide":5,"text":"Front-run state burn","textPreview":"Front-run state burn","textChars":20,"textLines":1,"bbox":[874,334,280,30]}
+{"kind":"shape","id":"sh/6507i9ov","slide":5,"bbox":[748,376,406,1]}
+{"kind":"textbox","id":"sh/u1g7u98n","slide":5,"text":"F4","textPreview":"F4","textChars":2,"textLines":1,"bbox":[748,402,46,26]}
+{"kind":"textbox","id":"sh/v2p83ep8","slide":5,"text":"90","textPreview":"90","textChars":2,"textLines":1,"bbox":[808,402,44,26]}
+{"kind":"textbox","id":"sh/w3y9wjqt","slide":5,"text":"ENS resolver trust","textPreview":"ENS resolver trust","textChars":18,"textLines":1,"bbox":[874,400,280,30]}
+{"kind":"shape","id":"sh/h47q5o7e","slide":5,"bbox":[748,442,406,1]}
+{"kind":"textbox","id":"sh/i5gryt8z","slide":5,"text":"F5","textPreview":"F5","textChars":2,"textLines":1,"bbox":[748,468,46,26]}
+{"kind":"textbox","id":"sh/j6987epk","slide":5,"text":"75","textPreview":"75","textChars":2,"textLines":1,"bbox":[808,468,44,26]}
+{"kind":"textbox","id":"sh/47i90jq5","slide":5,"text":"Global volume baseline","textPreview":"Global volume baseline","textChars":22,"textLines":1,"bbox":[874,466,280,30]}
+{"kind":"shape","id":"sh/58rq9o7a","slide":5,"bbox":[748,508,406,1]}
+{"kind":"textbox","id":"sh/6t0r2t8v","slide":5,"text":"F6","textPreview":"F6","textChars":2,"textLines":1,"bbox":[748,534,46,26]}
+{"kind":"textbox","id":"sh/ru98vypg","slide":5,"text":"70","textPreview":"70","textChars":2,"textLines":1,"bbox":[808,534,44,26]}
+{"kind":"textbox","id":"sh/10v2hwvu","slide":5,"text":"Decimal-scale mismatch","textPreview":"Decimal-scale mismatch","textChars":22,"textLines":1,"bbox":[874,532,280,30]}
+{"kind":"textbox","id":"sh/0zm1ore9","slide":5,"text":"SELF-AUDIT, NOT AN INDEPENDENT AUDIT","textPreview":"SELF-AUDIT, NOT AN INDEPENDENT AUDIT","textChars":36,"textLines":1,"bbox":[64,578,500,25]}
+{"kind":"notes","id":"nt/i1501s","slide":5,"text":"This is the strongest project story. Eight specialist agents reviewed the first working version while 105 tests were passing. They found a drain path because the binding check only compared attacker-controlled fields. Be explicit that this was a self-audit, not an independent audit.\n\nSource: project build log dated 2026-09-09 and the self-review narrative supplied with the original deck."}
+{"kind":"slide","id":"sl/osh4iw","slide":6,"title":"06","textShapes":25}
+{"kind":"textbox","id":"sh/ozuxw76d","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/3e1gn258","slide":6,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/2dsfuxon","slide":6,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/d43ytwna","slide":6,"text":"Six findings fixed the same day","textPreview":"Six findings fixed the same day","textChars":31,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/c3ux0r6p","slide":6,"text":"The remediation changed authentication, state flow, and operational failure modes.","textPreview":"The remediation changed authentication, state flow, and operational failure modes.","textChars":82,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/b2lgrm54","slide":6,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"textbox","id":"sh/q1cfyhoj","slide":6,"text":"F1","textPreview":"F1","textChars":2,"textLines":1,"bbox":[64,216,50,28]}
+{"kind":"textbox","id":"sh/t8jehsnq","slide":6,"text":"Signed digest","textPreview":"Signed digest","textChars":13,"textLines":1,"bbox":[126,212,450,32]}
+{"kind":"textbox","id":"sh/s7axon65","slide":6,"text":"ECDSA over chain ID, guard address, and settlement","textPreview":"ECDSA over chain ID, guard address, and settlement","textChars":50,"textLines":1,"bbox":[126,256,470,48]}
+{"kind":"shape","id":"sh/ul4ba5kj","slide":6,"bbox":[64,317,520,1]}
+{"kind":"textbox","id":"sh/fmdsja14","slide":6,"text":"F2","textPreview":"F2","textChars":2,"textLines":1,"bbox":[656,216,50,28]}
+{"kind":"textbox","id":"sh/gnmtcv29","slide":6,"text":"High-signal latch","textPreview":"High-signal latch","textChars":17,"textLines":1,"bbox":[718,212,450,32]}
+{"kind":"textbox","id":"sh/hoval0ju","slide":6,"text":"Only authenticated rate, volume, or policy anomalies pause","textPreview":"Only authenticated rate, volume, or policy anomalies pause","textChars":58,"textLines":1,"bbox":[718,256,470,48]}
+{"kind":"shape","id":"sh/2p4be5kf","slide":6,"bbox":[656,317,520,1]}
+{"kind":"textbox","id":"sh/3qxsna10","slide":6,"text":"F3","textPreview":"F3","textChars":2,"textLines":1,"bbox":[64,340,50,28]}
+{"kind":"textbox","id":"sh/4b6tgf2l","slide":6,"text":"Atomic state","textPreview":"Atomic state","textChars":12,"textLines":1,"bbox":[126,336,450,32]}
+{"kind":"textbox","id":"sh/pcfupkj6","slide":6,"text":"Adapter-only commit and token transfer","textPreview":"Adapter-only commit and token transfer","textChars":38,"textLines":1,"bbox":[126,380,470,48]}
+{"kind":"shape","id":"sh/qdobipkr","slide":6,"bbox":[64,441,520,1]}
+{"kind":"textbox","id":"sh/rexcru1c","slide":6,"text":"F4","textPreview":"F4","textChars":2,"textLines":1,"bbox":[656,340,50,28]}
+{"kind":"textbox","id":"sh/nihsfuh4","slide":6,"text":"ENS allowlist","textPreview":"ENS allowlist","textChars":13,"textLines":1,"bbox":[718,336,450,32]}
+{"kind":"textbox","id":"sh/mh8r6pgj","slide":6,"text":"Guardian approves every identity node","textPreview":"Guardian approves every identity node","textChars":37,"textLines":1,"bbox":[718,380,470,48]}
+{"kind":"shape","id":"sh/9kza1kza","slide":6,"bbox":[656,441,520,1]}
+{"kind":"textbox","id":"sh/8jq98zyp","slide":6,"text":"F5","textPreview":"F5","textChars":2,"textLines":1,"bbox":[64,464,50,28]}
+{"kind":"textbox","id":"sh/zexsbah8","slide":6,"text":"Source isolation","textPreview":"Source isolation","textChars":16,"textLines":1,"bbox":[126,460,450,32]}
+{"kind":"textbox","id":"sh/edor25gn","slide":6,"text":"Volume baseline stored per source","textPreview":"Volume baseline stored per source","textChars":33,"textLines":1,"bbox":[126,504,470,48]}
+{"kind":"shape","id":"sh/lgfadkze","slide":6,"bbox":[64,565,520,1]}
+{"kind":"textbox","id":"sh/0f694fyt","slide":6,"text":"F6","textPreview":"F6","textChars":2,"textLines":1,"bbox":[656,464,50,28]}
+{"kind":"textbox","id":"sh/rqxs7ahw","slide":6,"text":"Token scaling","textPreview":"Token scaling","textChars":13,"textLines":1,"bbox":[718,460,450,32]}
+{"kind":"textbox","id":"sh/qpory5gr","slide":6,"text":"Every value normalized to 18 decimals","textPreview":"Every value normalized to 18 decimals","textChars":37,"textLines":1,"bbox":[718,504,470,48]}
+{"kind":"shape","id":"sh/gv2p8be9","slide":6,"bbox":[656,565,520,1]}
+{"kind":"textbox","id":"sh/hwb61gfu","slide":6,"text":"128","textPreview":"128","textChars":3,"textLines":1,"bbox":[64,596,100,48]}
+{"kind":"textbox","id":"sh/utk761wj","slide":6,"text":"Foundry tests in the remediated suite","textPreview":"Foundry tests in the remediated suite","textChars":37,"textLines":1,"bbox":[170,606,480,35]}
+{"kind":"notes","id":"nt/osh4iw","slide":6,"text":"All six confirmed findings were fixed the same day. The most important operational change is that malformed or unauthenticated traffic only rejects that message. The breaker latches only when an authenticated anomaly proves that a trusted authority or policy path is misbehaving. The remediated suite contained 128 Foundry tests across unit, fuzz, invariant, and exploit-replay coverage.\n\nSource: remediation narrative and test summary supplied with the original deck."}
+{"kind":"slide","id":"sl/ilcswn","slide":7,"title":"07","textShapes":10}
+{"kind":"textbox","id":"sh/g76t0fih","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/v6xcruhw","slide":7,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/u54byp0b","slide":7,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/5wfux4zy","slide":7,"text":"Live contracts and guardian UI","textPreview":"Live contracts and guardian UI","textChars":30,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/4v6dozid","slide":7,"text":"Public Sepolia evidence and the deployed operator surface, captured 2026-09-12.","textPreview":"Public Sepolia evidence and the deployed operator surface, captured 2026-09-12.","textChars":79,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/3uxcvuhs","slide":7,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"textbox","id":"sh/itobmp07","slide":7,"text":"SEPOLIA GUARD","textPreview":"SEPOLIA GUARD","textChars":13,"textLines":1,"bbox":[62,200,260,24]}
+{"kind":"textbox","id":"sh/d0zu14zu","slide":7,"text":"GUARDIAN DASHBOARD","textPreview":"GUARDIAN DASHBOARD","textChars":18,"textLines":1,"bbox":[658,200,300,24]}
+{"kind":"textbox","id":"sh/be1obulc","slide":7,"text":"0xE59474b1…31D7008","textPreview":"0xE59474b1…31D7008","textChars":18,"textLines":1,"bbox":[62,578,300,25]}
+{"kind":"textbox","id":"sh/cfapkz2x","slide":7,"text":"Breaker up. Public guard configuration.","textPreview":"Breaker up. Public guard configuration.","textChars":39,"textLines":1,"bbox":[658,578,520,28]}
+{"kind":"textbox","id":"sh/xgjqd43i","slide":7,"text":"Arc contracts and CRE policy are deployed separately on Arc testnet.","textPreview":"Arc contracts and CRE policy are deployed separately on Arc testnet.","textChars":68,"textLines":1,"bbox":[62,628,850,28]}
+{"kind":"image","id":"im/hk7y10b6","slide":7,"name":"","alt":"Sepolia Etherscan page for the deployed PortcullisGuard","bbox":[62,234,560,330]}
+{"kind":"image","id":"im/5872xc7m","slide":7,"name":"","alt":"Public Portcullis guardian dashboard showing breaker status and guard configuration","bbox":[658,234,560,330]}
+{"kind":"notes","id":"nt/ilcswn","slide":7,"text":"The left capture shows the deployed Sepolia guard and its configuration transactions. The right capture shows the public guardian dashboard. Present this as deployment and UI evidence. The screenshot itself shows no populated settlement feed, so do not claim that the capture proves active indexed history. Arc contracts and the CRE policy workflow are documented separately in the deployment record.\n\nSource: docs/deployments.md and screenshots captured 2026-09-12."}
+{"kind":"slide","id":"sl/tjo2ul","slide":8,"title":"08","textShapes":17}
+{"kind":"textbox","id":"sh/4ny9kfmd","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/3mp8bal8","slide":8,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/ilgri54n","slide":8,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/dcrahk3a","slide":8,"text":"Sponsor integrations map to control points","textPreview":"Sponsor integrations map to control points","textChars":42,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/cbi9of2p","slide":8,"text":"Each integration carries one concrete responsibility in the settlement path.","textPreview":"Each integration carries one concrete responsibility in the settlement path.","textChars":76,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/ra9sful4","slide":8,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"shape","id":"sh/qpgrmpkj","slide":8,"bbox":[64,222,6,62]}
+{"kind":"textbox","id":"sh/tgnq503q","slide":8,"text":"Circle / Arc","textPreview":"Circle / Arc","textChars":12,"textLines":1,"bbox":[90,224,240,36]}
+{"kind":"textbox","id":"sh/8fe9cvm5","slide":8,"text":"Settlement origination","textPreview":"Settlement origination","textChars":22,"textLines":1,"bbox":[360,226,230,32]}
+{"kind":"textbox","id":"sh/yxofu5wn","slide":8,"text":"ArcSettlementReceiver on chain ID 5042002","textPreview":"ArcSettlementReceiver on chain ID 5042002","textChars":41,"textLines":1,"bbox":[610,226,570,50]}
+{"kind":"shape","id":"sh/zyxgnax8","slide":8,"bbox":[90,298,1090,1]}
+{"kind":"shape","id":"sh/0z6hwfet","slide":8,"bbox":[64,318,6,62]}
+{"kind":"textbox","id":"sh/l0fypkfe","slide":8,"text":"ENSv2","textPreview":"ENSv2","textChars":5,"textLines":1,"bbox":[90,320,240,36]}
+{"kind":"textbox","id":"sh/m1ozypwz","slide":8,"text":"Signing authority","textPreview":"Signing authority","textChars":17,"textLines":1,"bbox":[360,322,230,32]}
+{"kind":"textbox","id":"sh/n2hgruxk","slide":8,"text":"Guardian-allowlisted name resolved through UniversalResolverV2","textPreview":"Guardian-allowlisted name resolved through UniversalResolverV2","textChars":62,"textLines":1,"bbox":[610,322,570,50]}
+{"kind":"shape","id":"sh/83qh0fe5","slide":8,"bbox":[90,394,1090,1]}
+{"kind":"shape","id":"sh/94zytkva","slide":8,"bbox":[64,414,6,62]}
+{"kind":"textbox","id":"sh/a58z2pwv","slide":8,"text":"Chainlink CRE","textPreview":"Chainlink CRE","textChars":13,"textLines":1,"bbox":[90,416,240,36]}
+{"kind":"textbox","id":"sh/v6hgvudg","slide":8,"text":"Private policy","textPreview":"Private policy","textChars":14,"textLines":1,"bbox":[360,418,230,32]}
+{"kind":"textbox","id":"sh/7u1gjuto","slide":8,"text":"TEE workflow reports a time-limited verdict to CrePolicyConsumer","textPreview":"TEE workflow reports a time-limited verdict to CrePolicyConsumer","textChars":64,"textLines":1,"bbox":[610,418,570,50]}
+{"kind":"shape","id":"sh/6tsfapc3","slide":8,"bbox":[90,490,1090,1]}
+{"kind":"shape","id":"sh/twjyl4bu","slide":8,"bbox":[64,510,6,62]}
+{"kind":"textbox","id":"sh/svaxczu9","slide":8,"text":"The Graph","textPreview":"The Graph","textChars":9,"textLines":1,"bbox":[90,512,240,36]}
+{"kind":"textbox","id":"sh/j6hwfuts","slide":8,"text":"Evidence trail","textPreview":"Evidence trail","textChars":14,"textLines":1,"bbox":[360,514,230,32]}
+{"kind":"textbox","id":"sh/i58f6pc7","slide":8,"text":"Subgraph records every inspection attempt and live guard configuration","textPreview":"Subgraph records every inspection attempt and live guard configuration","textChars":70,"textLines":1,"bbox":[610,514,570,50]}
+{"kind":"notes","id":"nt/tjo2ul","slide":8,"text":"Each integration has a job. Arc hosts settlement origination. ENS supplies the signing authority. Chainlink CRE keeps policy inputs private and reports only the verdict. The Graph provides the inspection trail and configuration view used by the dashboard.\n\nSource: README.md, docs/deployments.md, and offchain/subgraph/README.md."}
+{"kind":"slide","id":"sl/inea3y","slide":9,"title":"09","textShapes":18}
+{"kind":"textbox","id":"sh/t4zidszi","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/61oz2dgr","slide":9,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/r2x0bihc","slide":9,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/4z6h03yl","slide":9,"text":"Demo: payment, rejection, breaker, recovery","textPreview":"Demo: payment, rejection, breaker, recovery","textChars":43,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/50fi98z6","slide":9,"text":"One flow proves the happy path and the failure boundaries.","textPreview":"One flow proves the happy path and the failure boundaries.","textChars":58,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/idozytgv","slide":9,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"shape","id":"sh/jex07yhg","slide":9,"bbox":[62,236,250,3]}
+{"kind":"textbox","id":"sh/wbmhw3yp","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,264,58,34]}
+{"kind":"textbox","id":"sh/hcfi58za","slide":9,"text":"Genuine settlement","textPreview":"Genuine settlement","textChars":18,"textLines":1,"bbox":[62,328,254,62]}
+{"kind":"textbox","id":"sh/t0j6hwji","slide":9,"text":"Valid authority signature\nAdapter pays","textPreview":"Valid authority signature | Adapter pays","textChars":38,"textLines":2,"bbox":[62,420,244,72]}
+{"kind":"shape","id":"sh/8zqp8rix","slide":9,"bbox":[354,236,250,3]}
+{"kind":"textbox","id":"sh/7yhof61s","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[354,264,58,34]}
+{"kind":"textbox","id":"sh/6d8n6107","slide":9,"text":"Forged message","textPreview":"Forged message","textChars":14,"textLines":1,"bbox":[354,328,254,62]}
+{"kind":"textbox","id":"sh/lcz6dwjm","slide":9,"text":"Rejected\nNo receiver state change","textPreview":"Rejected | No receiver state change","textChars":33,"textLines":2,"bbox":[354,420,244,72]}
+{"kind":"shape","id":"sh/kbq54ri1","slide":9,"bbox":[646,236,250,3]}
+{"kind":"textbox","id":"sh/jahobm1g","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[646,264,58,34]}
+{"kind":"textbox","id":"sh/y98n2h0v","slide":9,"text":"Signed anomaly","textPreview":"Signed anomaly","textChars":14,"textLines":1,"bbox":[646,328,254,62]}
+{"kind":"textbox","id":"sh/x8f69cja","slide":9,"text":"Volume spike\nBreaker latches","textPreview":"Volume spike | Breaker latches","textChars":28,"textLines":2,"bbox":[646,420,244,72]}
+{"kind":"shape","id":"sh/w76507i5","slide":9,"bbox":[938,236,250,3]}
+{"kind":"textbox","id":"sh/orapgrql","slide":9,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[938,264,58,34]}
+{"kind":"textbox","id":"sh/psj6pwr6","slide":9,"text":"Guardian recovery","textPreview":"Guardian recovery","textChars":17,"textLines":1,"bbox":[938,328,254,62]}
+{"kind":"textbox","id":"sh/2ps7eh8v","slide":9,"text":"Guardian clears\nSettlement resumes","textPreview":"Guardian clears | Settlement resumes","textChars":34,"textLines":2,"bbox":[938,420,244,72]}
+{"kind":"textbox","id":"sh/nq1onm9g","slide":9,"text":"forge script script/Demo.s.sol","textPreview":"forge script script/Demo.s.sol","textChars":30,"textLines":1,"bbox":[64,590,520,32]}
+{"kind":"notes","id":"nt/inea3y","slide":9,"text":"The demo shows four states. A genuine settlement pays out. A forged message is rejected before receiver state changes. A signed volume anomaly latches the breaker. The guardian clears it and settlement resumes. The same guard state is visible in the public dashboard.\n\nSource: script/Demo.s.sol and the supplied demo narrative."}
+{"kind":"slide","id":"sl/c8nitr","slide":10,"title":"10","textShapes":13}
+{"kind":"textbox","id":"sh/e9gji10j","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[52,22,34,24]}
+{"kind":"textbox","id":"sh/1cr2twzu","slide":10,"text":"PORTCULLIS","textPreview":"PORTCULLIS","textChars":10,"textLines":1,"bbox":[95,21,140,24]}
+{"kind":"shape","id":"sh/0bi1krip","slide":10,"bbox":[52,68,1176,1.5]}
+{"kind":"textbox","id":"sh/ny9kv6h0","slide":10,"text":"Known limitations","textPreview":"Known limitations","textChars":17,"textLines":1,"bbox":[52,88,1176,54]}
+{"kind":"textbox","id":"sh/md0jm10f","slide":10,"text":"This is testnet work with explicit operational tradeoffs.","textPreview":"This is testnet work with explicit operational tradeoffs.","textChars":57,"textLines":1,"bbox":[54,148,1168,36]}
+{"kind":"textbox","id":"sh/90r2xgz6","slide":10,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1092,685,136,17]}
+{"kind":"shape","id":"sh/ozi1obil","slide":10,"bbox":[640,214,1.5,372]}
+{"kind":"shape","id":"sh/b2tkzqhc","slide":10,"bbox":[64,400,1152,1.5]}
+{"kind":"textbox","id":"sh/a1kjql0r","slide":10,"text":"Testnet only","textPreview":"Testnet only","textChars":12,"textLines":1,"bbox":[64,224,500,38]}
+{"kind":"textbox","id":"sh/gfehk3ql","slide":10,"text":"No independent audit beyond the documented self-review.","textPreview":"No independent audit beyond the documented self-review.","textChars":55,"textLines":1,"bbox":[64,282,500,78]}
+{"kind":"textbox","id":"sh/hgnyt876","slide":10,"text":"Single guardian EOA","textPreview":"Single guardian EOA","textChars":19,"textLines":1,"bbox":[680,224,500,38]}
+{"kind":"textbox","id":"sh/udczit8f","slide":10,"text":"No timelock in the hackathon deployment.","textPreview":"No timelock in the hackathon deployment.","textChars":40,"textLines":1,"bbox":[680,282,500,78]}
+{"kind":"textbox","id":"sh/fe5gryp0","slide":10,"text":"Mocked transport","textPreview":"Mocked transport","textChars":16,"textLines":1,"bbox":[64,432,500,38]}
+{"kind":"textbox","id":"sh/43ehonqh","slide":10,"text":"A production bridge must supply\nits own transport trust model.","textPreview":"A production bridge must supply | its own transport trust model.","textChars":62,"textLines":2,"bbox":[64,490,500,78]}
+{"kind":"textbox","id":"sh/p4nix872","slide":10,"text":"Warmup behavior","textPreview":"Warmup behavior","textChars":15,"textLines":1,"bbox":[680,432,500,38]}
+{"kind":"textbox","id":"sh/2hwzmd8r","slide":10,"text":"New sources train a local baseline\nbefore spike checks apply.","textPreview":"New sources train a local baseline | before spike checks apply.","textChars":61,"textLines":2,"bbox":[680,490,500,78]}
+{"kind":"notes","id":"nt/c8nitr","slide":10,"text":"This is testnet software. The contracts have not had an independent audit. The guardian is one externally owned account without a timelock. The transport is mocked, so a production bridge must provide its own transport trust model. A new source also trains its volume baseline during warmup. These limits are explicit rather than hidden.\n\nSource: docs/security-notes.md and the supplied limitations."}
+{"kind":"slide","id":"sl/oe54bg","slide":11,"title":"Portcullis","textShapes":15}
+{"kind":"shape","id":"sh/srqtonil","slide":11,"bbox":[68,68,1144,2]}
+{"kind":"textbox","id":"sh/rqhsfih0","slide":11,"text":"Portcullis","textPreview":"Portcullis","textChars":10,"textLines":1,"bbox":[72,112,640,76]}
+{"kind":"textbox","id":"sh/qpobmx0f","slide":11,"text":"Authenticate the settlement before it can move value.","textPreview":"Authenticate the settlement before it can move value.","textChars":53,"textLines":1,"bbox":[74,212,770,58]}
+{"kind":"textbox","id":"sh/5ofadszu","slide":11,"text":"LIVE ENDPOINTS","textPreview":"LIVE ENDPOINTS","textChars":14,"textLines":1,"bbox":[76,334,220,24]}
+{"kind":"textbox","id":"sh/4n6tkni9","slide":11,"text":"Dashboard","textPreview":"Dashboard","textChars":9,"textLines":1,"bbox":[76,382,120,26]}
+{"kind":"textbox","id":"sh/3mxsbiho","slide":11,"text":"portcullis.b0gdaniy.xyz","textPreview":"portcullis.b0gdaniy.xyz","textChars":23,"textLines":1,"bbox":[205,382,650,28]}
+{"kind":"textbox","id":"sh/ilobid03","slide":11,"text":"Docs","textPreview":"Docs","textChars":4,"textLines":1,"bbox":[76,440,120,26]}
+{"kind":"textbox","id":"sh/pkjupczy","slide":11,"text":"passat-b6-tdi.github.io/Portcullis","textPreview":"passat-b6-tdi.github.io/Portcullis","textChars":34,"textLines":1,"bbox":[205,440,650,28]}
+{"kind":"textbox","id":"sh/ojatw7id","slide":11,"text":"GitHub","textPreview":"GitHub","textChars":6,"textLines":1,"bbox":[76,498,120,26]}
+{"kind":"textbox","id":"sh/6pc3ahob","slide":11,"text":"github.com/passat-b6-tdi/Portcullis","textPreview":"github.com/passat-b6-tdi/Portcullis","textChars":35,"textLines":1,"bbox":[205,498,650,28]}
+{"kind":"textbox","id":"sh/7alk32pw","slide":11,"text":"Subgraph","textPreview":"Subgraph","textChars":8,"textLines":1,"bbox":[76,556,120,26]}
+{"kind":"textbox","id":"sh/8bulc76h","slide":11,"text":"api.studio.thegraph.com/query/59239/portcullis/latest","textPreview":"api.studio.thegraph.com/query/59239/portcullis/latest","textChars":53,"textLines":1,"bbox":[205,556,650,28]}
+{"kind":"textbox","id":"sh/tc3m5c72","slide":11,"text":"Questions","textPreview":"Questions","textChars":9,"textLines":1,"bbox":[900,318,280,54]}
+{"kind":"textbox","id":"sh/yls36xof","slide":11,"text":"Open the code\nVerify the deployments\nChallenge the threat model","textPreview":"Open the code | Verify the deployments | Challenge the threat model","textChars":63,"textLines":3,"bbox":[900,402,300,135]}
+{"kind":"textbox","id":"sh/jm1kz2p0","slide":11,"text":"Built solo","textPreview":"Built solo","textChars":10,"textLines":1,"bbox":[76,640,130,24]}
+{"kind":"textbox","id":"sh/knul8765","slide":11,"text":"ETHOnline 2026","textPreview":"ETHOnline 2026","textChars":14,"textLines":1,"bbox":[1090,640,122,24]}
+{"kind":"notes","id":"nt/oe54bg","slide":11,"text":"Portcullis is easy to inspect: the dashboard, documentation, contracts, deployment records, and subgraph are public. Invite judges to verify the deployed system and challenge the threat model.\n\nSource: docs/deployments.md and the public project endpoints shown on the slide."}

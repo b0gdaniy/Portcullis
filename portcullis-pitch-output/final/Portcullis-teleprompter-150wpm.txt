@@ -1,0 +1,81 @@
+[SLIDE 1 — PORTCULLIS]
+
+Portcullis is a security and compliance firewall for institutional cross-chain settlement.
+
+Its job is simple: authenticate the message before value moves.
+
+Every settlement passes six checks. A bad message is rejected. Only an authenticated anomaly can latch the breaker.
+
+[SLIDE 2 — THE RECEIVER]
+
+The receiver is the last line of defense.
+
+Ronin, Wormhole, and Nomad failed differently, but each ended with a receiver accepting a bad cross-chain message and moving value.
+
+Portcullis adds an independent decision between message arrival and token transfer.
+
+[SLIDE 3 — SIX CHECKS]
+
+Before the adapter pays, the guard verifies six things.
+
+The source and signature must be valid. Token, recipient, and value must be allowed. The digest must be fresh, the nonce exact, and the rate limit intact. Finally, the guard checks local volume or a private policy verdict.
+
+A normal rejection changes no receiver state.
+
+[SLIDE 4 — ARCHITECTURE]
+
+The settlement crosses five layers.
+
+Arc hosts the receiver. ENS resolves the signing authority. Chainlink CRE evaluates private policy. PortcullisGuard enforces the result. The Graph exposes history and configuration to the dashboard.
+
+The core stays small, local, and reviewable.
+
+[SLIDE 5 — SELF-AUDIT]
+
+The strongest part of this project is what failed before submission.
+
+The first version had one hundred and five passing tests. A self-audit by eight agents still found a drain path.
+
+The binding check compared attacker-controlled fields. An attacker could read the public authority, echo it as sender, use the next nonce, and pass every check.
+
+This was a self-audit, not an independent audit.
+
+[SLIDE 6 — REMEDIATION]
+
+All six findings were fixed the same day.
+
+The guard now verifies a signature bound to the chain, guard, and settlement. State commit and transfer happen through the adapter. ENS identities are allowlisted. Volume state is isolated by source, and token values are normalized.
+
+The remediated suite contains one hundred and twenty-eight Foundry tests.
+
+[SLIDE 7 — LIVE PROOF]
+
+This is live deployment evidence.
+
+The left side shows the Sepolia guard and configuration transactions. The right shows the public guardian dashboard. Arc contracts and the Chainlink policy workflow run separately on Arc testnet.
+
+[SLIDE 8 — SPONSOR STACK]
+
+Each sponsor integration has one job.
+
+Circle and Arc originate settlement. ENS supplies the signing authority. Chainlink CRE keeps policy inputs private and reports the verdict. The Graph records each inspection attempt.
+
+[SLIDE 9 — DEMO]
+
+The demo shows four states.
+
+A genuine settlement pays. A forged message is rejected before state changes. A signed volume anomaly latches the breaker. The guardian clears it, and settlement resumes.
+
+[SLIDE 10 — LIMITATIONS]
+
+The limitations are explicit.
+
+This is testnet software without an independent audit. One guardian account has no timelock. The transport is mocked. New sources train a volume baseline during warmup.
+
+[SLIDE 11 — CLOSE]
+
+Portcullis proves the message before the receiver moves value.
+
+The contracts, dashboard, documentation, deployments, and subgraph are public.
+
+Open the code, verify the deployment, and challenge the threat model.

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "presentation-finalization.v1",
+  "finalSha256": "b4164be8d0d498c872daf7fb28b68d7ed47b5cc3dbc2434a0fc94416b0fc2a67",
+  "byteCount": 388326,
+  "packageIntegrity": {
+    "chart_count": 0,
+    "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+    "finding_count": 0,
+    "findings": [],
+    "notes_parts_skipped": 9,
+    "relationship_part_count": 23,
+    "slide_count": 9,
+    "status": "pass",
+    "exitCode": 0,
+    "findingCount": 0,
+    "warnings": []
+  },
+  "presentationLayout": {
+    "finding_count": 0,
+    "findings": [],
+    "font_policy": {
+      "checked_text_script_count": 175,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Aptos",
+        "Menlo"
+      ],
+      "observed_font_use_counts": {
+        "Aptos": 111,
+        "Menlo": 64
+      },
+      "passed": true,
+      "performed": true
+    },
+    "slide_count": 9,
+    "slide_size_in": [
+      13.3333,
+      7.5
+    ],
+    "warning_count": 0,
+    "warnings": [],
+    "exitCode": 0,
+    "findingCount": 0,
+    "fontPolicy": {
+      "checked_text_script_count": 175,
+      "native_font_rendering_verified": false,
+      "observed_font_families": [
+        "Aptos",
+        "Menlo"
+      ],
+      "observed_font_use_counts": {
+        "Aptos": 111,
+        "Menlo": 64
+      },
+      "passed": true,
+      "performed": true
+    }
+  },
+  "fontSelection": {
+    "basis": "reference",
+    "approvedFamilies": [
+      "Aptos",
+      "Menlo"
+    ],
+    "scriptFonts": {},
+    "referenceSha256": "8e104ecebb14cf01fc908744b0d14dcda3761904516a4aea126b7a18794c9b34",
+    "referenceFontsVerifiedInEncodedText": true,
+    "checked_text_script_count": 175,
+    "native_font_rendering_verified": false,
+    "observed_font_families": [
+      "Aptos",
+      "Menlo"
+    ],
+    "observed_font_use_counts": {
+      "Aptos": 111,
+      "Menlo": 64
+    },
+    "passed": true,
+    "performed": true
+  },
+  "firstPartyImport": {
+    "performed": true,
+    "passed": true,
+    "slideCount": 9,
+    "sha256": "b4164be8d0d498c872daf7fb28b68d7ed47b5cc3dbc2434a0fc94416b0fc2a67",
+    "runtimeNodeModules": "/Users/bohdanpukhno/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules",
+    "nodeExecutable": "/Users/bohdanpukhno/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+  },
+  "nativeTableArithmetic": {
+    "performed": true,
+    "checked_column_count": 0,
+    "checks": [],
+    "claim_boundary": "Displayed-value arithmetic with rounding tolerance; not source-data verification.",
+    "eligible_table_count": 0,
+    "finding_count": 0,
+    "findings": [],
+    "native_table_count": 0,
+    "passed": true,
+    "schema_version": "presentation-native-table-arithmetic.v1",
+    "skipped_tables": [],
+    "slide_count": 9,
+    "warning_count": 0,
+    "warnings": []
+  },
+  "nativeChartTitles": {
+    "performed": true,
+    "checks": [],
+    "finding_count": 0,
+    "findings": [],
+    "native_chart_count": 0,
+    "native_powerpoint_verified": false,
+    "passed": true,
+    "presentation_sha256": "b4164be8d0d498c872daf7fb28b68d7ed47b5cc3dbc2434a0fc94416b0fc2a67",
+    "schema_version": "presentation-native-chart-titles.v1",
+    "slide_count": 9,
+    "source_text_emitted": false,
+    "unresolved_linked_title_count": 0
+  },
+  "sourceDerivedPolicyFlags": [
+    "--expected-slide-size-emu",
+    "12192000,6858000",
+    "--validate-heading-fit",
+    "--cover-role",
+    "none",
+    "--expected-slide-count",
+    "9",
+    "--approved-font-family",
+    "Aptos",
+    "--approved-font-family",
+    "Menlo"
+  ],
+  "nativeChartValidation": {
+    "detectedOwnerSlides": [],
+    "detectedChartCount": 0,
+    "targetApplication": "portable",
+    "sourceChartOwnersExplicitlyDeclared": true,
+    "validatorRan": false,
+    "passed": true
+  }
+}
